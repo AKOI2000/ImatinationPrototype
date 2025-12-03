@@ -1,0 +1,67 @@
+.container {
+    padding: 7rem 12rem;
+  
+    @include respond(lg) {
+      padding: 7rem 6rem;
+    }
+  
+    @include respond(mdl) {
+      padding: 7rem 5rem;
+    }
+  
+    @include respond(mds) {
+      padding: 7rem 3rem;
+    }
+  
+    @include respond(sm) {
+      padding: 7rem 3rem;
+    }
+  
+    @include respond(xs) {
+      padding: 7rem 2rem;
+    }
+}
+
+.work-section{
+  margin-top: 9rem;
+
+  @include respond(sm) {
+    margin-top: 9rem;
+  }
+
+}
+
+.grid{
+  display: grid;
+}
+
+.col-2-by-2{
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 3rem;
+
+  @include respond (sm) {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+
+
+.col-4-by-1{
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+
+  @include respond (md) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include respond (mds) {
+    grid-template-columns: repeat(2, 1fr);
+  } 
+
+  @include respond (sm) {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+  }
+}

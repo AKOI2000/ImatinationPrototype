@@ -1,0 +1,26 @@
+@import "./base/fonttypeface";
+
+@import "./utilities/mixin";
+@import "./utilities/utility";
+@import "./base/reset";
+@import "./utilities/variables";
+
+
+
+@import "./base/typography";
+
+@import "./layout/grid";
+
+@import "./pages/about";
+@import "./pages/gallery";
+@import "./pages/home";
+@import "./pages/works";
+
+@import "./components/button";
+
+@import "./sections/aboutSection";
+@import "./sections/footer";
+@import "./sections/hero";
+@import "./sections/horizontalScroll";
+@import "./sections/navbar";
+@import "./sections/testimonial";

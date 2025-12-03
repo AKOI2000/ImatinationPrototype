@@ -1,0 +1,14 @@
+.page-heading {
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 4rem;
+      font-size: 5rem;
+      font-weight: normal;
+      letter-spacing: 0px;
+  
+      @include respond(sm) {
+        font-size: 4.2rem;
+      }
+    }
+  }

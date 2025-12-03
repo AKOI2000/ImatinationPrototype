@@ -1,0 +1,171 @@
+#about {
+  margin-top: 12.9rem;
+  padding: 5rem 5% 4rem;
+
+  @include respond(sm) {
+    margin-top: 9rem;
+  }
+
+  .column-gap-5 {
+    @include respond(sm) {
+      row-gap: 3rem;
+    }
+  }
+  img {
+    width: 100%;
+  }
+
+  .about-image__img-box {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    img {
+      width: 100%;
+      grid-row: 1/-1;
+      grid-column: 1/-1;
+      // display: none;
+    }
+
+    .main {
+      @include respond(sm) {
+        display: none;
+      }
+    }
+
+    .main-mobile {
+      display: none;
+
+      @include respond(sm) {
+        display: inline-block;
+      }
+    }
+  }
+
+  .about-paragraph {
+    font-weight: 300;
+    padding: 5rem 15%;
+    text-align: center;
+
+    @include respond(lg) {
+      padding: 5rem 12%;
+    }
+
+    @include respond(md) {
+      padding: 5rem 8%;
+    }
+
+    @include respond(sm) {
+      padding: 5rem 5%;
+      text-align: left;
+    }
+
+    @include respond(xs) {
+      padding: 5rem 3%;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 16px;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .about-profile {
+    padding-bottom: 2rem;
+
+    .femi{
+      background: url('/image/FEMI—SINGLE.webp');
+      aspect-ratio: 1000/1250;
+      background-size: 185%;
+      background-position: center;
+      
+
+      img{
+        display: none;
+      }
+    }
+
+    .tobi{
+      background: url('/image/TOBI—SINGLE.webp');
+      aspect-ratio: 1000/1250;
+      background-size: 195%;
+      background-position: center;
+      
+
+      img{
+        display: none;
+      }
+    }
+
+    .profile-img-box {
+      img {
+        margin-bottom: 2rem;
+      }
+    }
+    .profile-caption {
+      font-size: 2rem;
+      margin-top: 1.5rem;
+
+      @include respond(sm) {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .about-quote {
+    padding: 7rem 12%;
+    text-align: center;
+    font-weight: 400;
+
+    @include respond(lg) {
+      padding: 7rem 17%;
+    }
+
+    @include respond(md) {
+      padding: 7rem 12%;
+    }
+
+    @include respond(sm) {
+      padding: 7rem 7%;
+    }
+
+    @include respond(xs) {
+      padding: 7rem 2%;
+    }
+
+    h4 {
+      font-size: 7rem;
+      font-weight: 400;
+      letter-spacing: -.5px;
+      line-height: 1.28;
+      margin-bottom: 2rem;
+
+      br{
+        display: none;
+
+        @include respond(sm) {
+            display: inline-block;
+          }
+      }
+
+      @include respond(sm) {
+        font-size: 6rem;
+        letter-spacing: -1px;
+      }
+    }
+
+    h5 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0;
+
+      @include respond(sm) {
+        font-size: 2rem;
+        
+      }
+    }
+  }
+}

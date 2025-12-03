@@ -1,0 +1,30 @@
+.about-section {
+  
+
+  .about-text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+    @include respond (md) {
+      width: 70%;
+    }
+
+    @include respond (mds) {
+      width: 100%;
+    }
+    
+    p{
+      font-size: 1.6rem;
+      font-weight: 300;
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.section-heading{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}

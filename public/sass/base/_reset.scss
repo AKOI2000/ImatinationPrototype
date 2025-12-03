@@ -1,0 +1,44 @@
+// @import "../utilities/variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  @include lgrespond(xxxl) {
+    font-size: 125%;
+  }
+
+  @include respond(md) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-family: $font-text;
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+img{
+  	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul{
+  
+  li{
+    list-style: none;
+  }
+}
+
+a{
+  text-decoration: none;
+}

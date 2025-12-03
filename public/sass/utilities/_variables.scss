@@ -1,0 +1,21 @@
+//// FONTS
+$font-text: 'Space Grotesk';
+
+
+
+/////// Breakpoints
+
+$breakpoints: (
+  xs: 360px,
+  smd: 400px,
+  sm: 480px,
+  mds: 608px,
+  mdm: 650px,
+  md: 768px,
+  mdl: 880px,
+  lg: 1024px,
+  lg1: 1025px,
+  xl: 1280px,
+  xxl: 1440px,
+  xxxl: 2000px
+);
