@@ -15,7 +15,7 @@ function Headshoot() {
         try {
           setLoading(true);
           const res = await fetch(
-            "http://localhost:3001/api/get-images?folder=HEADSHOT",
+            "/api/get-images?folder=HEADSHOT",
             {
               headers: { "Content-Type": "application/json" },
               method: "GET",
