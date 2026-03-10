@@ -8,7 +8,7 @@ import Loading from "../components/Loading";
 function Fashion() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [images, setImages] = useState()
+  const [images, setImages] = useState([])
 
   useEffect(() => {
     async function getImages() {
