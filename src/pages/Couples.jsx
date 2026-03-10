@@ -15,7 +15,7 @@ function Couples() {
         try {
           setLoading(true);
           const res = await fetch(
-            "/api/get-images?folder=COUPLES",
+            "/api/getImages?folder=COUPLES",
             {
               headers: { "Content-Type": "application/json" },
               method: "GET",

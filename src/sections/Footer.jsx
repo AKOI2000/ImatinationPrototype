@@ -13,14 +13,14 @@ function Footer() {
 
           <div className="footer-content">
             <div className="footer-socials">
-              <a href="https://www.instagram.com/imatinations" target="_blank"><img src="../../public/Instagram.svg" alt="" /> <span>Instagram</span></a>
-              <a href=""> <img src="../../public/X.svg" alt="" /></a>
-              <a href=""> <img src="../../public/tik-tok.png" alt="" /> <span>tiktok</span></a>
+              <a href="https://www.instagram.com/imatinations" target="_blank"><img src="/Instagram.svg" alt="" /> <span>Instagram</span></a>
+              <a href=""> <img src="/X.svg" alt="" /></a>
+              <a href=""> <img src="/tik-tok.png" alt="" /> <span>tiktok</span></a>
             </div>
           </div>
 
           <div className="footer-logo">
-                <img src="/public/IMATINATIONS Footer.png" alt="" />
+                <img src="/IMATINATIONS Footer.png" alt="" />
             </div>
         </div>
       </div>

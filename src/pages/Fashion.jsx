@@ -15,7 +15,7 @@ function Fashion() {
       try {
         setLoading(true);
         const res = await fetch(
-          "/api/get-images?folder=FASHION",
+          "/api/getImages?folder=FASHION",
           {
             headers: { "Content-Type": "application/json" },
             method: "GET",
